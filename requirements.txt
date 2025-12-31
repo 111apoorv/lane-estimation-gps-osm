@@ -1,0 +1,33 @@
+# Core Data Science
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+lightgbm>=3.3.0
+xgboost>=1.7.0
+
+# Geospatial
+geopandas>=0.12.0
+shapely>=2.0.0
+pyproj>=3.4.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Jupyter
+jupyter>=1.0.0
+notebook>=6.5.0
+ipykernel>=6.0.0
+
+# File formats
+pyarrow>=10.0.0
+openpyxl>=3.0.0
+
+# Presentation generation
+python-pptx>=0.6.21
+
+# Utilities
+tqdm>=4.64.0
+

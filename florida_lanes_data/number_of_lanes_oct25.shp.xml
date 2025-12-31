@@ -1,0 +1,1557 @@
+<metadata xml:lang="en">
+	<Esri>
+		<CreaDate>20251021</CreaDate>
+		<CreaTime>13555300</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncDate>20251030</SyncDate>
+		<SyncTime>14020400</SyncTime>
+		<ModDate>20251030</ModDate>
+		<ModTime>14020400</ModTime>
+		<Sync>TRUE</Sync>
+		<DataProperties>
+			<itemProps>
+				<itemName Sync="TRUE">number_of_lanes_oct25</itemName>
+				<nativeExtBox>
+					<westBL Sync="TRUE">57644.762100</westBL>
+					<eastBL Sync="TRUE">793918.610500</eastBL>
+					<southBL Sync="TRUE">62549.309100</southBL>
+					<northBL Sync="TRUE">781514.249400</northBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</nativeExtBox>
+				<itemSize Sync="TRUE">0.000</itemSize>
+				<itemLocation>
+					<linkage Sync="TRUE">file://\\ict-az2-fs11.server.ufl.edu\geo-fs8-qaqc\finaldata\state\post_load\number_of_lanes_oct25.shp</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</itemLocation>
+				<imsContentType Sync="TRUE">002</imsContentType>
+			</itemProps>
+			<coordRef>
+				<type Sync="TRUE">Projected</type>
+				<geogcsn Sync="TRUE">GCS_North_American_1983_HARN</geogcsn>
+				<csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits>
+				<projcsn Sync="TRUE">NAD_1983_HARN_Florida_GDL_Albers</projcsn>
+				<peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/3.5.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_HARN_Florida_GDL_Albers&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983_HARN&amp;quot;,DATUM[&amp;quot;D_North_American_1983_HARN&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,400000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-84.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,24.0],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,31.5],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,24.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,3087]]&lt;/WKT&gt;&lt;XOrigin&gt;-19550100&lt;/XOrigin&gt;&lt;YOrigin&gt;-7526400&lt;/YOrigin&gt;&lt;XYScale&gt;225743210.67916927&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;3087&lt;/WKID&gt;&lt;LatestWKID&gt;3087&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+			</coordRef>
+			<lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\Project" Date="20251013" Time="140225">Project D:\work\rci\202510\download\DOTShapesFGDB\DOTShapesFGDB.gdb\number_of_lanes D:\work\rci\202510\majrds_etc\final\number_of_lanes_oct25.shp PROJCS["NAD_1983_HARN_Florida_GDL_Albers",GEOGCS["GCS_North_American_1983_HARN",DATUM["D_North_American_1983_HARN",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers"],PARAMETER["False_Easting",400000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-84.0],PARAMETER["Standard_Parallel_1",24.0],PARAMETER["Standard_Parallel_2",31.5],PARAMETER["Latitude_Of_Origin",24.0],UNIT["Meter",1.0]] NAD_1983_To_HARN_Florida PROJCS["NAD_1983_UTM_Zone_17N",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-81.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]] NO_PRESERVE_SHAPE # NO_VERTICAL</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20251013" Time="140225">AddField D:\work\rci\202510\majrds_etc\final\number_of_lanes_oct25.shp DESCRIPT LONG 10 # # # NON_NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20251013" Time="140227">CalculateField D:\work\rci\202510\majrds_etc\final\number_of_lanes_oct25.shp DESCRIPT !LANE_CNT! PYTHON3 # TEXT NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20251013" Time="140228">AddField D:\work\rci\202510\majrds_etc\final\number_of_lanes_oct25.shp FGDLAQDATE DATE # # # # NON_NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20251013" Time="140229">CalculateField D:\work\rci\202510\majrds_etc\final\number_of_lanes_oct25.shp FGDLAQDATE '10/13/25' PYTHON3 # TEXT NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20251013" Time="140232">CalculateField D:\work\rci\202510\majrds_etc\final\number_of_lanes_oct25.shp COUNTY !COUNTY!.upper() PYTHON3 # TEXT NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20251013" Time="140233">DeleteField D:\work\rci\202510\majrds_etc\final\number_of_lanes_oct25.shp Shape_Leng;Shape_Le_1;FID_;OBJECTID DELETE_FIELDS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\Toolboxes\Data Management Tools.tbx\Copy" Date="20251015" Time="144534">Copy D:\work\rci\202510\majrds_etc\final\number_of_lanes_oct25.shp D:\work\rci\202510\majrds_etc\final\not_needed\number_of_lanes_oct25.shp Shapefile #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\Toolboxes\Data Management Tools.tbx\Copy" Date="20251015" Time="144559">Copy D:\work\rci\202510\majrds_etc\final\not_needed\number_of_lanes_oct25.shp D:\work\rci\202510\majrds_etc\final\number_of_lanes_oct25.shp Shapefile #</Process><procstep><procdesc>The data set was taken from the Florida Department of  Transportation Statistics Office from the following webpage: http://www.dot.state.fl.us/planning/statistics/gis 
+The data set was originally downloaded in October 2025 as the RCI basemap.  Specific instructions, created by FDOT, their consultants, and the GeoPlan Center, were carried out. The data set is then to be updated on a regular basis. The data was originally in UTM Zone 17, Nad83, units meters.
+
+The data was projected to Albers HPGN (EPSG=3087).
+-Download the most recent Statewide File GeoDataBase
+-Export from feature class number_of_lanes to shapefile
+-Project the shape file to the standard FGDL projection.
+-Deleted items Shape_Leng, Shape_Length
+-Add Descript item based on LANE_CNT</procdesc><procsv>ArcGIS Desktop</procsv><procdate>2025-10-13</procdate></procstep><srcinfo><srcscale>Unknown</srcscale><typesrc>Online</typesrc><srccitea>FDOT</srccitea><srccontr>Florida Department of Transportation</srccontr></srcinfo><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyMultiple" Date="20251021" Time="135559">CopyMultiple "q:\data_output\sam\fdot\majrds\202510\aadt_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\bike_lane_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\bike_slot_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\box_culverts_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\bridges_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\faccross_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\fdot_localnames_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\funclass_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\majhwys_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\majrds_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\maxspeed_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\milemarkers_oct25.shp shapefile_point;q:\data_output\sam\fdot\majrds\202510\mpoarea_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\nhs_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\number_of_lanes_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\rci_fedaid_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\rci_off_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\rci_on_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\rdaccess_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\scenic_highways_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\shared_path_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\sidewalk_barrier_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\sidewalk_sep_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\surface_width_oct25.shp shapefile_line;q:\data_output\sam\fdot\majrds\202510\truck_volume_oct25.shp shapefile_line" Q:\finaldata\state\pre_load\RCI_temp aadt_oct25;bike_lane_oct25;bike_slot_oct25;box_culverts_oct25;bridges_oct25;faccross_oct25;fdot_localnames_oct25;funclass_oct25;majhwys_oct25;majrds_oct25;maxspeed_oct25;milemarkers_oct25;mpoarea_oct25;nhs_oct25;number_of_lanes_oct25;rci_fedaid_oct25;rci_off_oct25;rci_on_oct25;rdaccess_oct25;scenic_highways_oct25;shared_path_oct25;sidewalk_barrier_oct25;sidewalk_sep_oct25;surface_width_oct25;truck_volume_oct25 "aadt_oct25 FeatureClass aadt_oct25.shp #;bike_lane_oct25 FeatureClass bike_lane_oct25.shp #;bike_slot_oct25 FeatureClass bike_slot_oct25.shp #;box_culverts_oct25 FeatureClass box_culverts_oct25.shp #;bridges_oct25 FeatureClass bridges_oct25.shp #;faccross_oct25 FeatureClass faccross_oct25.shp #;fdot_localnames_oct25 FeatureClass fdot_localnames_oct25.shp #;funclass_oct25 FeatureClass funclass_oct25.shp #;majhwys_oct25 FeatureClass majhwys_oct25.shp #;majrds_oct25 FeatureClass majrds_oct25.shp #;maxspeed_oct25 FeatureClass maxspeed_oct25.shp #;milemarkers_oct25 FeatureClass milemarkers_oct25.shp #;mpoarea_oct25 FeatureClass mpoarea_oct25.shp #;nhs_oct25 FeatureClass nhs_oct25.shp #;number_of_lanes_oct25 FeatureClass number_of_lanes_oct25.shp #;rci_fedaid_oct25 FeatureClass rci_fedaid_oct25.shp #;rci_off_oct25 FeatureClass rci_off_oct25.shp #;rci_on_oct25 FeatureClass rci_on_oct25.shp #;rdaccess_oct25 FeatureClass rdaccess_oct25.shp #;scenic_highways_oct25 FeatureClass scenic_highways_oct25.shp #;shared_path_oct25 FeatureClass shared_path_oct25.shp #;sidewalk_barrier_oct25 FeatureClass sidewalk_barrier_oct25.shp #;sidewalk_sep_oct25 FeatureClass sidewalk_sep_oct25.shp #;surface_width_oct25 FeatureClass surface_width_oct25.shp #;truck_volume_oct25 FeatureClass truck_volume_oct25.shp #"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20251030" Time="133643">FeatureClassToFeatureClass Q:\finaldata\state\pre_load\RCI_temp\number_of_lanes_oct25.shp Q:\intranet\misc\sde_admin\connection_files\admin\poke_etat.sde\ETAT.aaa\ NUMBER_OF_LANES_OCT25 # "ROADWAY "ROADWAY" true true false 8 Text 0 0,First,#,Q:\finaldata\state\pre_load\RCI_temp\number_of_lanes_oct25.shp,ROADWAY,0,7;ROAD_SIDE "ROAD_SIDE" true true false 1 Text 0 0,First,#,Q:\finaldata\state\pre_load\RCI_temp\number_of_lanes_oct25.shp,ROAD_SIDE,0,0;DISTRICT "DISTRICT" true true false 1 Text 0 0,First,#,Q:\finaldata\state\pre_load\RCI_temp\number_of_lanes_oct25.shp,DISTRICT,0,0;COUNTYDOT "COUNTYDOT" true true false 2 Text 0 0,First,#,Q:\finaldata\state\pre_load\RCI_temp\number_of_lanes_oct25.shp,COUNTYDOT,0,1;COUNTY "COUNTY" true true false 12 Text 0 0,First,#,Q:\finaldata\state\pre_load\RCI_temp\number_of_lanes_oct25.shp,COUNTY,0,11;MNG_DIST "MNG_DIST" true true false 4 Text 0 0,First,#,Q:\finaldata\state\pre_load\RCI_temp\number_of_lanes_oct25.shp,MNG_DIST,0,3;BEGIN_POST "BEGIN_POST" true true false 19 Double 0 0,First,#,Q:\finaldata\state\pre_load\RCI_temp\number_of_lanes_oct25.shp,BEGIN_POST,-1,-1;END_POST "END_POST" true true false 19 Double 0 0,First,#,Q:\finaldata\state\pre_load\RCI_temp\number_of_lanes_oct25.shp,END_POST,-1,-1;LANE_CNT "LANE_CNT" true true false 19 Double 0 0,First,#,Q:\finaldata\state\pre_load\RCI_temp\number_of_lanes_oct25.shp,LANE_CNT,-1,-1;DESCRIPT "DESCRIPT" true true false 10 Long 0 10,First,#,Q:\finaldata\state\pre_load\RCI_temp\number_of_lanes_oct25.shp,DESCRIPT,-1,-1;FGDLAQDATE "FGDLAQDATE" true true false 8 Date 0 0,First,#,Q:\finaldata\state\pre_load\RCI_temp\number_of_lanes_oct25.shp,FGDLAQDATE,-1,-1" #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20251030" Time="134624">AddField Q:\intranet\misc\sde_admin\connection_files\admin\poke_etat.sde\ETAT.aaa\\ETAT.NUMBER_OF_LANES_OCT25 AUTOID LONG # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20251030" Time="134718">CalculateField Q:\intranet\misc\sde_admin\connection_files\admin\poke_etat.sde\ETAT.aaa\\ETAT.NUMBER_OF_LANES_OCT25 AUTOID !OBJECTID! PYTHON_9.3 # TEXT NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20251030" Time="134720">AddIndex Q:\intranet\misc\sde_admin\connection_files\admin\poke_etat.sde\ETAT.aaa\\ETAT.NUMBER_OF_LANES_OCT25 AUTOID A20251030134719 NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20251030" Time="134721">AddIndex Q:\intranet\misc\sde_admin\connection_files\admin\poke_etat.sde\ETAT.aaa\\ETAT.NUMBER_OF_LANES_OCT25 DESCRIPT D20251030134719 NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\Analyze" Date="20251030" Time="134723">Analyze Q:\intranet\misc\sde_admin\connection_files\admin\poke_etat.sde\ETAT.aaa\\ETAT.NUMBER_OF_LANES_OCT25 BUSINESS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20251030" Time="140212">CopyFeatures Q:\intranet\misc\sde_admin\connection_files\admin\poke_etat.sde\ETAT.aaa\ETAT.NUMBER_OF_LANES_OCT25 Q:\finaldata\state\post_load\number_of_lanes_oct25.shp # # # #</Process></lineage><copyHistory><copy source="q:\data_output\sam\fdot\majrds\202510\number_of_lanes_oct25" dest="\\ict-az2-fs11.server.ufl.edu\geo-fs8-qaqc\finaldata\state\pre_load\RCI_temp\number_of_lanes_oct25" date="20251021" time="13555300"/></copyHistory></DataProperties>
+		<ArcGISFormat>1.0</ArcGISFormat>
+	</Esri>
+	<eainfo>
+		<detailed Name="number_of_lanes_oct25">NUMBER_OF_LANES_OCT25<enttyp>
+				<enttypl Sync="TRUE">number_of_lanes_oct25</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">0</enttypc>
+				<enttypd>NUMBER_OF_LANES_OCT25</enttypd>
+				<enttypds>Florida Department of Transportation, Transportation Statistics Office</enttypds>
+			</enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ROADWAY</attrlabl>
+				<attalias Sync="TRUE">ROADWAY</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<attrdef>Roadway ID - A unique 8-character identification number assigned to a roadway or section of a roadway either On or Off the State Highway System for which information is maintained in the Department's Roadway Characteristics Inventory (RCI).</attrdef>
+				<attrdefs>Florida Department of Transportation, Transportation Statistics Office</attrdefs>
+				<attrdomv>
+					<udom>8-character ID, the first two characters are the county code, the next  3 are the section code, and final 3 characters are the subsection code.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ROAD_SIDE</attrlabl>
+				<attalias Sync="TRUE">ROAD_SIDE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">1</attwidth>
+				<attrdef>Road side type</attrdef>
+				<attrdefs>Florida Department of Transportation, Transportation Statistics Office</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>R</edomv>
+						<edomvd>Right side of the road.</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Statistics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>L</edomv>
+						<edomvd>Left side of the road.</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Statistics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>C</edomv>
+						<edomvd>Composite side of the road which is non-divided.</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Statistics Office</edomvds>
+					</edom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DISTRICT</attrlabl>
+				<attalias Sync="TRUE">DISTRICT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">1</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">FDOT District Number</attrdef>
+				<attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>District 1</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>District 2</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>District 3</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>District 4</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>District 5</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>6</edomv>
+						<edomvd>District 6</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>7</edomv>
+						<edomvd>District 7</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+					<edom>
+						<edomv>8</edomv>
+						<edomvd>Florida's Turnpike Enterprise</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">COUNTYDOT</attrlabl>
+				<attalias Sync="TRUE">COUNTYDOT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef>Two-character Florida Department of Transportation county identifier.  The ROADWAY identifier's first 2 characters are the county identifier.</attrdef>
+				<attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>01</edomv>
+						<edomvd>Charlotte</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>03</edomv>
+						<edomvd>Collier</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>04</edomv>
+						<edomvd>Desoto</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>05</edomv>
+						<edomvd>Glades</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>06</edomv>
+						<edomvd>Hardee</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>07</edomv>
+						<edomvd>Hendry</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>09</edomv>
+						<edomvd>Highlands</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>12</edomv>
+						<edomvd>Lee</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>08</edomv>
+						<edomvd>Hernando</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>09</edomv>
+						<edomvd>Highlands</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>10</edomv>
+						<edomvd>Hillsborough</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>11</edomv>
+						<edomvd>Lake</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>13</edomv>
+						<edomvd>Manatee</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>14</edomv>
+						<edomvd>Pasco</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>15</edomv>
+						<edomvd>Pinellas</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>16</edomv>
+						<edomvd>Polk</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>17</edomv>
+						<edomvd>Sarasota</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>18</edomv>
+						<edomvd>Sumter</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>26</edomv>
+						<edomvd>Alachua</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>27</edomv>
+						<edomvd>Baker</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>28</edomv>
+						<edomvd>Bradford</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>29</edomv>
+						<edomvd>Columbia</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>30</edomv>
+						<edomvd>Dixie</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>31</edomv>
+						<edomvd>Gilchrist</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>32</edomv>
+						<edomvd>Hamilton</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>33</edomv>
+						<edomvd>Lafayette</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>34</edomv>
+						<edomvd>Levy</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>35</edomv>
+						<edomvd>Madison</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>36</edomv>
+						<edomvd>Marion</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>37</edomv>
+						<edomvd>Suwannee</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>38</edomv>
+						<edomvd>Taylor</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>39</edomv>
+						<edomvd>Union</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>46</edomv>
+						<edomvd>Bay</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>47</edomv>
+						<edomvd>Calhoun</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>48</edomv>
+						<edomvd>Escambia</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>49</edomv>
+						<edomvd>Franklin</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>50</edomv>
+						<edomvd>Gadsden</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>51</edomv>
+						<edomvd>Gulf</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>52</edomv>
+						<edomvd>Holmes</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>53</edomv>
+						<edomvd>Jackson</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>54</edomv>
+						<edomvd>Jefferson</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>55</edomv>
+						<edomvd>Leon</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>56</edomv>
+						<edomvd>Liberty</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>57</edomv>
+						<edomvd>Okaloosa</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>58</edomv>
+						<edomvd>Santa Rosa</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>59</edomv>
+						<edomvd>Wakulla</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>60</edomv>
+						<edomvd>Walton</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>61</edomv>
+						<edomvd>Washington</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>70</edomv>
+						<edomvd>Brevard</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>71</edomv>
+						<edomvd>Clay</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>72</edomv>
+						<edomvd>Duval</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>73</edomv>
+						<edomvd>Flagler</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>74</edomv>
+						<edomvd>Nassau</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>75</edomv>
+						<edomvd>Orange</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>76</edomv>
+						<edomvd>Putnam</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>77</edomv>
+						<edomvd>Seminole</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>78</edomv>
+						<edomvd>St. Johns</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>79</edomv>
+						<edomvd>Volusia</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>86</edomv>
+						<edomvd>Broward</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>87</edomv>
+						<edomvd>Miami-Dade</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>88</edomv>
+						<edomvd>Indian River</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>89</edomv>
+						<edomvd>Martin</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>90</edomv>
+						<edomvd>Monroe</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>91</edomv>
+						<edomvd>Okeechobee</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>92</edomv>
+						<edomvd>Osceola</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>93</edomv>
+						<edomvd>Palm Beach</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>94</edomv>
+						<edomvd>St. Lucie</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">COUNTY</attrlabl>
+				<attalias Sync="TRUE">COUNTY</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">12</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef>The county that contains the roadway.</attrdef>
+				<attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Alachua</edomv>
+						<edomvd>Alachua County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Baker</edomv>
+						<edomvd>Baker County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Bay</edomv>
+						<edomvd>Bay County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Bradford</edomv>
+						<edomvd>Bradford County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Brevard</edomv>
+						<edomvd>Brevard County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Broward</edomv>
+						<edomvd>Broward County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Calhoun</edomv>
+						<edomvd>Calhoun County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Charlotte</edomv>
+						<edomvd>Charlotte County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Citrus</edomv>
+						<edomvd>Citrus County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Clay</edomv>
+						<edomvd>Clay County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Collier</edomv>
+						<edomvd>Collier County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Columbia</edomv>
+						<edomvd>Columbia County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Desoto</edomv>
+						<edomvd>Desoto County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Dixie</edomv>
+						<edomvd>Dixie County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Duval</edomv>
+						<edomvd>Duval County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Escambia</edomv>
+						<edomvd>Escambia County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Flagler</edomv>
+						<edomvd>Flagler County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Franklin</edomv>
+						<edomvd>Franklin County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Gadsden</edomv>
+						<edomvd>Gadsden County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Gilchrist</edomv>
+						<edomvd>Gilchrist County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Glades</edomv>
+						<edomvd>Glades County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Gulf</edomv>
+						<edomvd>Gulf County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Hamilton</edomv>
+						<edomvd>Hamilton County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Hardee</edomv>
+						<edomvd>Hardee County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Hendry</edomv>
+						<edomvd>Hendry County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Hernando</edomv>
+						<edomvd>Hernando County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Highlands</edomv>
+						<edomvd>Highlands County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Hillsborough</edomv>
+						<edomvd>Hillsborough County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Holmes</edomv>
+						<edomvd>Holmes County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Indian River</edomv>
+						<edomvd>Indian River County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Jackson</edomv>
+						<edomvd>Jackson County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Jefferson</edomv>
+						<edomvd>Jefferson County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Lafayette</edomv>
+						<edomvd>Lafayette County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Lake</edomv>
+						<edomvd>Lake County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Lee</edomv>
+						<edomvd>Lee County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Leon</edomv>
+						<edomvd>Leon County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Levy</edomv>
+						<edomvd>Levy County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Liberty</edomv>
+						<edomvd>Liberty County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Madison</edomv>
+						<edomvd>Madison County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Manatee</edomv>
+						<edomvd>Manatee County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Marion</edomv>
+						<edomvd>Marion County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Martin</edomv>
+						<edomvd>Martin County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Miami-Dade</edomv>
+						<edomvd>Miami-Dade County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Monroe County</edomv>
+						<edomvd>Monroe County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Nassau</edomv>
+						<edomvd>Nassau County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Okaloosa</edomv>
+						<edomvd>Okaloosa County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Okeechobee</edomv>
+						<edomvd>Okeechobee County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Orange</edomv>
+						<edomvd>Orange County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Osceola</edomv>
+						<edomvd>Osceola County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Palm Beach</edomv>
+						<edomvd>Palm Beach County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Pasco</edomv>
+						<edomvd>Pasco County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Pinellas</edomv>
+						<edomvd>Pinellas County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Polk</edomv>
+						<edomvd>Polk County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Putnam</edomv>
+						<edomvd>Putnam County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Santa Rosa</edomv>
+						<edomvd>Santa Rosa County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Sarasota</edomv>
+						<edomvd>Sarasota County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Seminole</edomv>
+						<edomvd>Seminole County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>St. Johns</edomv>
+						<edomvd>St. Johns County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>St. Lucie</edomv>
+						<edomvd>St. Lucie County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Sumter</edomv>
+						<edomvd>Sumter County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Suwannee</edomv>
+						<edomvd>Suwannee County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Taylor</edomv>
+						<edomvd>Taylor County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Union</edomv>
+						<edomvd>Union County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Volusia</edomv>
+						<edomvd>Volusia County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Wakulla</edomv>
+						<edomvd>Wakulla County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Walton</edomv>
+						<edomvd>Walton County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>Washington</edomv>
+						<edomvd>Washington County</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MNG_DIST</attrlabl>
+				<attalias Sync="TRUE">MNG_DIST</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef>The District that manages the roadway (District 1, District 2, District 3, District 4, District 5, District 6, District 7, or Turnpike). Note that the Managing District may not be the same as the geographic district.  For example, roadway ID 08470001 is managed by Turnpike, but its geographic District is District 7. This is a 2-character representation of the Managing District.</attrdef>
+				<attrdefs>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>District 1</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>District 2</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>District 3</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>District 4</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>District 5</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>6</edomv>
+						<edomvd>District 6</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>7</edomv>
+						<edomvd>District 7</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+					<edom>
+						<edomv>8</edomv>
+						<edomvd>Florida's Turnpike Enterprise</edomvd>
+						<edomvds>Florida Department of Transportation, Transportation Data &amp; Analytics Office RCI Planning Data Handbook</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BEGIN_POST</attrlabl>
+				<attalias Sync="TRUE">BEGIN_POST</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<attrdef Sync="TRUE">Begin mile point</attrdef>
+				<attrdefs>Florida Department of Transportation, Transportation Statistics Office</attrdefs>
+				<attrdomv>
+					<udom>Lowest milepoint for the record</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">18</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">END_POST</attrlabl>
+				<attalias Sync="TRUE">END_POST</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<attrdef Sync="TRUE">End mile point</attrdef>
+				<attrdefs>Florida Department of Transportation, Transportation Statistics Office</attrdefs>
+				<attrdomv>
+					<udom>Highest milepoint for the record</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">18</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LANE_CNT</attrlabl>
+				<attalias Sync="TRUE">LANE_CNT</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<attrdef>Number of lanes</attrdef>
+				<attrdefs>Florida Department of Transportation, Transportation Statistics Office</attrdefs>
+				<attrdomv>
+					<udom>Number of lanes</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">18</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+			</attr>
+			<attr><attrlabl>DESCRIPT</attrlabl><attrdef>FGDL added item based on LANE_CNT</attrdef><attrdefs>GeoPlan</attrdefs><attalias Sync="TRUE">DESCRIPT</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>FGDLAQDATE</attrlabl><attrdef>Date GeoPlan acquired data from source.</attrdef><attrdefs>GeoPlan</attrdefs><attrtype Sync="TRUE">Date</attrtype><attalias Sync="TRUE">FGDLAQDATE</attalias><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">AUTOID</attrlabl><attalias Sync="TRUE">AUTOID</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attrdef Sync="TRUE">Unique ID added by GeoPlan. This field is for historic tracking of features.</attrdef><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SHAPE_LEN</attrlabl><attalias Sync="TRUE">SHAPE_LEN</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+	</eainfo>
+	<mdLang>
+		<languageCode value="eng"/>
+		<countryCode value="USA" Sync="TRUE">
+		</countryCode>
+	</mdLang>
+	<mdChar>
+		<CharSetCd value="004"/>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd value="005"/>
+	</mdHrLv>
+	<mdContact>
+		<rpIndName>GIS Section Manager</rpIndName>
+		<rpOrgName>FDOT Transportation Statistics Office</rpOrgName>
+		<rpPosName>GIS Section Manager</rpPosName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>(850) 414-4848/Toll Free: (800) 399-5503</voiceNum>
+				<voiceNum tddtty="True">Florida Relay: 1-800-955-8771 (TTY)</voiceNum>
+				<voiceNum tddtty="True">Florida Relay: 1-877-955-8773 (Spanish)</voiceNum>
+				<voiceNum tddtty="True">Florida Relay: 1-800-955-8770 (Voice)</voiceNum>
+				<voiceNum tddtty="True">Florida Department of Transportation: TDD/TTY: 850-410-5708</voiceNum>
+				<voiceNum tddtty="True">Florida Relay: 1-800-955-1339 (ASCII)</voiceNum>
+				<voiceNum tddtty="True">Florida Relay: 711</voiceNum>
+			</cntPhone>
+			<cntAddress addressType="both">
+				<delPoint>Transportation Statistics Office, 605 Suwannee Street, MS 27</delPoint>
+				<city>Tallahassee</city>
+				<adminArea>Florida</adminArea>
+				<postCode>32399-0450</postCode>
+				<country>US</country>
+				<eMailAdd>CO-TDAGIS@dot.state.fl.us</eMailAdd>
+			</cntAddress>
+		</rpCntInfo>
+		<role>
+			<RoleCd value="007"/>
+		</role>
+	</mdContact>
+	<mdStanName>ArcGIS Metadata</mdStanName>
+	<mdStanVer>1.0</mdStanVer>
+	<distInfo xmlns=""><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps><distributor><distorCont><rpOrgName>Florida Geographic Data Library (FGDL)</rpOrgName><role><RoleCd value="005"/></role><rpCntInfo><cntAddress addressType="postal"><delPoint>Jonathan and Melanie Antevy Hall</delPoint><delPoint>1480 Inner Road, Room 431</delPoint><delPoint>PO Box 115706</delPoint><city>Gainesville</city><adminArea>FL</adminArea><postCode>32611-5706</postCode><country>US</country><eMailAdd>https://fgdl.org/info/contact/</eMailAdd></cntAddress><cntPhone><voiceNum tddtty="">None</voiceNum></cntPhone></rpCntInfo></distorCont><distorTran><onLineSrc><orDesc>DOWNLOADABLE DATA</orDesc><linkage>https://www.fgdl.org/</linkage></onLineSrc></distorTran></distributor><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat></distInfo><dataIdInfo>
+		<idCitation>
+			<resTitle>Florida Department of Transportation Number of Lanes - October 2025</resTitle>
+			<date>
+				<pubDate>20251011</pubDate>
+			</date>
+			<citRespParty>
+				<rpOrgName>Florida Department of Transportation, Transportation Data &amp; Analytics Office (TDA)</rpOrgName>
+				<role>
+					<RoleCd value="006"/>
+				</role>
+			</citRespParty>
+			<datasetSeries>
+				<seriesName>Road Data Layers</seriesName>
+				<issId>RDL</issId>
+			</datasetSeries>
+			<presForm>
+				<PresFormCd value="005" Sync="TRUE">
+				</PresFormCd>
+			</presForm>
+			<otherCitDet>State of Florida</otherCitDet></idCitation>
+		<idAbs>The Number of Lanes feature class shows the total number of through lanes on a roadway as derived from event mapping Feature 212, characteristic NOLANES from the FDOT Roadway Characteristics Inventory data. This data represents the information collected and reported as of the most recent inventory performed and may not reflect the current conditions.</idAbs>
+		<idPurp>The FDOT GIS Roads with Number of Lanes feature class provides spatial information on the number of through lanes. A through traffic lane is a lane of roadway intended to facilitate moving vehicles along a corridor. For a divided roadway, there will be two values, one for the left roadside and one for the right roadside. For a composite roadside, there will be one value. This information is required for all functionally classified roadways On or Off the SHS and Active Exclusive roadways.</idPurp>
+		<idStatus>
+			<ProgCd value="001"/>
+		</idStatus>
+		<idPoC>
+			<rpIndName>GIS Section Manager</rpIndName>
+			<rpOrgName>FDOT Transportation Statistics Office</rpOrgName>
+			<rpPosName>Manager</rpPosName>
+			<rpCntInfo>
+				<cntPhone>
+					<voiceNum>Toll Free: (800) 399-5503</voiceNum>
+					<voiceNum>(850) 414-4848</voiceNum>
+					<voiceNum tddtty="True">Florida Relay: 1-800-955-8770 (Voice)</voiceNum>
+					<voiceNum tddtty="True">Florida Relay: 711</voiceNum>
+					<voiceNum tddtty="True">Florida Relay: 1-877-955-8773 (Spanish)</voiceNum>
+					<voiceNum tddtty="True">Florida Relay: 1-800-955-8771 (TTY)</voiceNum>
+					<voiceNum tddtty="True">Florida Department of Transportation: TDD/TTY: 850-410-5708</voiceNum>
+					<voiceNum tddtty="True">Florida Relay: 1-800-955-1339 (ASCII)</voiceNum>
+				</cntPhone>
+				<cntAddress addressType="both">
+					<delPoint>Transportation Statistics Office, 605 Suwannee Street, MS 27</delPoint>
+					<city>Tallahassee</city>
+					<adminArea>Florida</adminArea>
+					<postCode>32399-0450</postCode>
+					<country>US</country>
+					<eMailAdd>CO-TDAGIS@dot.state.fl.us</eMailAdd>
+				</cntAddress>
+			</rpCntInfo>
+			<role>
+				<RoleCd value="007"/>
+			</role>
+		</idPoC>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="003"/>
+			</maintFreq>
+		</resMaint>
+		<placeKeys>
+			<keyword>Florida</keyword>
+		</placeKeys>
+		<themeKeys>
+			<keyword>Highways</keyword>
+			<keyword>RCI</keyword>
+			<keyword>Number of Lanes</keyword>
+			<keyword>Roads with Number of Lanes</keyword>
+			<keyword>Lane Count</keyword>
+			<keyword>Transportation</keyword>
+			<keyword>Roadway Characteristics Inventory</keyword>
+			<keyword>Roads</keyword>
+			<keyword>Feature 212</keyword>
+			<keyword>NOLANES</keyword>
+			<keyword>Florida Department of Transportation</keyword>
+			<keyword>FDOT</keyword>
+			<keyword>Transportation Data and Analytics</keyword>
+			<keyword>TDA</keyword>
+			<keyword>Florida</keyword>
+			<keyword>FL</keyword>
+		</themeKeys>
+		<searchKeys>
+			<keyword>Highways</keyword>
+			<keyword>RCI</keyword>
+			<keyword>Number of Lanes</keyword>
+			<keyword>Roads with Number of Lanes</keyword>
+			<keyword>Lane Count</keyword>
+			<keyword>Transportation</keyword>
+			<keyword>Florida</keyword>
+			<keyword>Roadway Characteristics Inventory</keyword>
+			<keyword>Roads</keyword>
+			<keyword>Feature 212</keyword>
+			<keyword>NOLANES</keyword>
+			<keyword>Florida Department of Transportation</keyword>
+			<keyword>FDOT</keyword>
+			<keyword>Transportation Data and Analytics</keyword>
+			<keyword>TDA</keyword>
+			<keyword>FL</keyword>
+		</searchKeys>
+		<resConst>
+			<LegConsts>
+				<useLimit>NO WARRANTIES: This site and its content is made available by the Florida Department of Transportation on an "as is", "as available" basis without warranties of any kind, express or implied. DISCLAIMER OF LIABILITY: The user of this application and data assumes all responsibility and risk for the use of both. Under no circumstances, including negligence, shall the Florida Department of Transportation, or its employees be liable for any DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY or CONSEQUENTIAL DAMAGES, or LOST PROFITS that result from the use, misuse or inability to use the application and data. Nor shall the Florida Department of Transportation, or its employees be liable for any damages resulting from or related to reliance; mistakes, omissions, interruptions, deletion of files, computer viruses, errors, defects, or any failure of performance, communications failure, theft, destruction or unauthorized access to the application and data.</useLimit>
+			</LegConsts>
+			<LegConsts xmlns=""><useLimit>The Florida Geographic Data Library is a collection of Geospatial Data compiled by the University of Florida GeoPlan Center with support from the Florida Department of Transportation. GIS data available in FGDL is collected from various state, federal, and other agencies (data sources) who are data stewards, producers, or publishers. The data available in FGDL may not be the most current version of the data offered by the data source. University of Florida GeoPlan Center makes no guarantees about the currentness of the data and suggests that data users check with the data source to see if more recent versions of the data exist. Furthermore, the GIS data available in the FGDL are provided 'as is'. The University of Florida GeoPlan Center makes no warranties, guaranties or representations as to the truth, accuracy or completeness of the data provided by the data sources. The University of Florida GeoPlan Center makes no representations or warranties about the quality or suitability of the materials, either expressly or implied, including but not limited to any implied warranties of merchantability, fitness for a particular purpose, or non-infringement. The University of Florida GeoPlan Center shall not be liable for any damages suffered as a result of using, modifying, contributing or distributing the materials. A note about data scale: Scale is an important factor in data usage. Certain scale datasets are not suitable for some project, analysis, or modeling purposes. Please be sure you are using the best available data. 1:24000 scale datasets are recommended for projects that are at the county level. 1:24000 data should NOT be used for high accuracy base mapping such as property parcel boundaries. 1:100000 scale datasets are recommended for projects that are at the multi-county or regional level. 1:125000 scale datasets are recommended for projects that are at the regional or state level or larger. Vector datasets with no defined scale or accuracy should be considered suspect. Make sure you are familiar with your data before using it for projects or analysis. Every effort has been made to supply the user with data documentation. For additional information, see the References section and the Data Source Contact section of this documentation.</useLimit></LegConsts></resConst>
+		<resConst>
+			<Consts>
+				<useLimit>NO WARRANTIES: This site and its content is made available by the Florida Department of Transportation on an "as is", "as available" basis without warranties of any kind, express or implied. DISCLAIMER OF LIABILITY: The user of this application and data assumes all responsibility and risk for the use of both. Under no circumstances, including negligence, shall the Florida Department of Transportation, or its employees be liable for any DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY or CONSEQUENTIAL DAMAGES, or LOST PROFITS that result from the use, misuse or inability to use the application and data. Nor shall the Florida Department of Transportation, or its employees be liable for any damages resulting from or related to reliance; mistakes, omissions, interruptions, deletion of files, computer viruses, errors, defects, or any failure of performance, communications failure, theft, destruction or unauthorized access to the application and data.</useLimit>
+			</Consts>
+		</resConst>
+		<dataLang>
+			<languageCode value="eng"/>
+			<countryCode value="USA" Sync="TRUE">
+			</countryCode>
+		</dataLang>
+		<tpCat>
+			<TopicCatCd value="018"/>
+		</tpCat>
+		<dataExt>
+			<exDesc>Data are valid from the publication date until a new feature class is published. This dataset is updated every Saturday.</exDesc>
+			<tempEle>
+				<TempExtent>
+					<exTemp>
+						<TM_Instant>
+							<tmPosition>20251011</tmPosition>
+						</TM_Instant>
+					</exTemp>
+				</TempExtent>
+			</tempEle>
+			<geoEle/>
+		</dataExt>
+		<envirDesc Sync="TRUE">Microsoft Windows 10 Version 10.0 (Build 26200) ; Esri ArcGIS 13.5.3.57366</envirDesc>
+		<spatRpType>
+			<SpatRepTypCd value="001" Sync="TRUE">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="search">
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<westBL Sync="TRUE">-87.587083</westBL>
+					<eastBL Sync="TRUE">-79.873030</eastBL>
+					<northBL Sync="TRUE">31.042023</northBL>
+					<southBL Sync="TRUE">24.508491</southBL>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+	</dataIdInfo>
+	<dqInfo>
+		<dqScope>
+			<scpLvl>
+				<ScopeCd value="005"/>
+			</scpLvl>
+		</dqScope>
+		<report type="DQConcConsis">
+			<measDesc>All data for this dataset are logically consistent.</measDesc>
+		</report>
+		<report type="DQCompOm">
+			<measDesc>This dataset is complete as of date of production.</measDesc>
+		</report>
+		<dataLineage>
+			<prcStep>
+				<stepDesc>This dataset was created using ESRI event mapping. The route system is the Transportation Data and Analytics' linear referencing system (LRS). The event source data are from the nolanes table stored in Oracle. The query used to generate the event table is: select * from nolanes;</stepDesc>
+				<stepDateTm>20251011</stepDateTm>
+			</prcStep>
+			<prcStep><stepDesc>The data set was taken from the Florida Department of  Transportation Statistics Office from the following webpage: http://www.dot.state.fl.us/planning/statistics/gis 
+The data set was originally downloaded in October 2025 as the RCI basemap.  Specific instructions, created by FDOT, their consultants, and the GeoPlan Center, were carried out. The data set is then to be updated on a regular basis. The data was originally in UTM Zone 17, Nad83, units meters.
+
+The data was projected to Albers HPGN (EPSG=3087).
+-Download the most recent Statewide File GeoDataBase
+-Export from feature class number_of_lanes to shapefile
+-Project the shape file to the standard FGDL projection.
+-Deleted items Shape_Leng, Shape_Length
+-Add Descript item based on LANE_CNT</stepDesc><stepDateTm>2025-10-13T00:00:00</stepDateTm><stepProc><rpIndName>Sam Palmer</rpIndName><rpOrgName>University of Florida - GeoPlan Center</rpOrgName><role><RoleCd value="007"/></role></stepProc></prcStep><dataSource xmlns="" type=""><srcDesc>Spatial and Attribute Information</srcDesc><srcMedName><MedNameCd value="015"/></srcMedName></dataSource></dataLineage>
+		<report xmlns="" type="DQConcConsis" dimension=""><measDesc>This data is provided 'as is'. GeoPlan relied on the integrity of the original data layer's topology.</measDesc></report><report xmlns="" type="DQCompOm" dimension=""><measDesc>This data is provided 'as is' by GeoPlan and is complete to our knowledge.</measDesc></report><report xmlns="" type="DQQuanAttAcc" dimension=""><measDesc>GeoPlan relied on the integrity of the attribute information within the original data.</measDesc><evalMethType><EvalMethTypeCd value="003"/></evalMethType></report><report xmlns="" type="DQAbsExtPosAcc" dimension="horizontal"><measDesc>This data is provided 'as is' and its horizontal positional accuracy has not been verified by GeoPlan.</measDesc></report><report xmlns="" type="DQAbsExtPosAcc" dimension="vertical"><measDesc>This data is provided 'as is' and its vertical positional accuracy has not been verified by GeoPlan.</measDesc><measResult><ConResult><conPass>0</conPass></ConResult></measResult></report></dqInfo>
+	<Binary>
+		<Enclosure>
+			<Descript>original metadata</Descript>
+			<Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="7a9b0aa608e16942ae7d4acebf0221" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjw/eG1sLXN0eWxlc2hlZXQg
+dHlwZT0idGV4dC94c2wiIGhyZWY9IlRTTy54c2wiPz4NCjwhLS08IURPQ1RZUEUgbWV0YWRhdGEg
+U1lTVEVNICJodHRwOi8vd3d3LmVzcmkuY29tL21ldGFkYXRhL2Vzcmlwcm9mODAuZHRkIj4tLT4N
+CjxtZXRhZGF0YSB4bWw6bGFuZz0iZW4iPg0KICA8RXNyaT4NCiAgICA8TWV0YUlEPntBRTlBMzQ1
+MS1BNThBLTRFNjEtQUMwQi0wRjFEQjE5Q0I4NzB9PC9NZXRhSUQ+DQogICAgPENyZWFEYXRlPjIw
+MDcwNDEwPC9DcmVhRGF0ZT4NCiAgICA8Q3JlYVRpbWU+MTA6MDIgQU0gRVNUPC9DcmVhVGltZT4N
+CiAgICA8U3luY09uY2U+RkFMU0U8L1N5bmNPbmNlPg0KICAgIDxTeW5jRGF0ZT4yMDE3MDIxODwv
+U3luY0RhdGU+DQogICAgPFN5bmNUaW1lPjA4NTAxOTAwPC9TeW5jVGltZT4NCiAgICA8TW9kRGF0
+ZT4yMDE3MDIxODwvTW9kRGF0ZT4NCiAgICA8TW9kVGltZT4wODUwMTkwMDwvTW9kVGltZT4NCiAg
+ICA8U3luYz5UUlVFPC9TeW5jPg0KICA8L0Vzcmk+DQogIDxpZGluZm8+DQogICAgPGRlc2NyaXB0
+Pg0KICAgICAgPGFic3RyYWN0PlRoZSBSb2FkcyB3aXRoIE51bWJlciBvZiBMYW5lcyBmZWF0dXJl
+IGNsYXNzIGNvdmVycyB0aGUgc3RhdGUgb2YgRmxvcmlkYSBhdCBhIHNjYWxlIG9mIDE6MjQsMDAw
+IHdpdGggYSBwcm9qZWN0aW9uIHN5c3RlbSBvZiBVbml2ZXJzYWwgVHJhbnN2ZXJzZSBNZXJjYXRv
+ciAoVVRNKSAxNyBOb3J0aCB6b25lIGFuZCBhIGhvcml6b250YWwgZGF0dW0gb2YgTm9ydGggQW1l
+cmljYW4gMTk4MyAoTkFEIDE5ODMpLiBUaGUgbWFwIHVuaXRzIGFyZSBpbiBtZXRlcnMuPC9hYnN0
+cmFjdD4NCiAgICAgIDxwdXJwb3NlPlRoZSBGRE9UIEdJUyBSb2FkcyB3aXRoIE51bWJlciBvZiBM
+YW5lcyBmZWF0dXJlIGNsYXNzIHByb3ZpZGVzIHNwYXRpYWwgaW5mb3JtYXRpb24gb24gdGhlIG51
+bWJlciBvZiB0aHJvdWdoIHJvYWR3YXkgbGFuZXMuPC9wdXJwb3NlPg0KICAgIDwvZGVzY3JpcHQ+
+DQogICAgPGNpdGF0aW9uPg0KICAgICAgPGNpdGVpbmZvPg0KICAgICAgICA8b3JpZ2luPiBGbG9y
+aWRhIERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb24sIFRyYW5zcG9ydGF0aW9uIFN0YXRpc3Rp
+Y3MgT2ZmaWNlIChUUkFOU1RBVCkgDQo8L29yaWdpbj4NCiAgICAgICAgPHB1YmRhdGU+MjAxNzAy
+MTg8L3B1YmRhdGU+DQogICAgICAgIDx0aXRsZT5OdW1iZXIgb2YgTGFuZXM8L3RpdGxlPg0KICAg
+ICAgICA8b25saW5rIFN5bmM9IkZBTFNFIj5odHRwczovL2Z0cC5mZG90Lmdvdi9maWxlL2QvRlRQ
+L0ZET1QvY28vcGxhbm5pbmcvdHJhbnN0YXQvZ2lzL3NoYXBlZmlsZXMvbnVtYmVyX29mX2xhbmVz
+LnppcDwvb25saW5rPg0KICAgICAgICA8c2VyaW5mbz4NCiAgICAgICAgICA8c2VybmFtZT5Sb2Fk
+IERhdGEgTGF5ZXJzPC9zZXJuYW1lPg0KICAgICAgICAgIDxpc3N1ZT5SREw8L2lzc3VlPg0KICAg
+ICAgICA8L3NlcmluZm8+DQogICAgICA8L2NpdGVpbmZvPg0KICAgIDwvY2l0YXRpb24+DQogICAg
+PHRpbWVwZXJkPg0KICAgICAgPGN1cnJlbnQ+RGF0YSBhcmUgdmFsaWQgZnJvbSB0aGUgcHVibGlj
+YXRpb24gZGF0ZSB1bnRpbCBhIG5ldyBmZWF0dXJlIGNsYXNzIGlzIHB1Ymxpc2hlZC4gIFRoaXMg
+ZGF0YXNldCBpcyB1cGRhdGVkIGV2ZXJ5IFNhdHVyZGF5LjwvY3VycmVudD4NCiAgICAgIDx0aW1l
+aW5mbz4NCiAgICAgICAgPHNuZ2RhdGU+DQogICAgICAgICAgPGNhbGRhdGU+MjAxNzAyMTg8L2Nh
+bGRhdGU+DQogICAgICAgIDwvc25nZGF0ZT4NCiAgICAgIDwvdGltZWluZm8+DQogICAgPC90aW1l
+cGVyZD4NCiAgICA8c3RhdHVzPg0KICAgICAgPHByb2dyZXNzPkNvbXBsZXRlPC9wcm9ncmVzcz4N
+CiAgICAgIDx1cGRhdGU+V2Vla2x5PC91cGRhdGU+DQogICAgPC9zdGF0dXM+DQogICAgPGtleXdv
+cmRzPg0KICAgICAgPHRoZW1lPg0KICAgICAgICA8dGhlbWVrdD5Ob25lPC90aGVtZWt0Pg0KICAg
+ICAgICA8dGhlbWVrZXk+VHJhbnNwb3J0YXRpb248L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVr
+ZXk+Um9hZHMgd2l0aCBOdW1iZXIgb2YgTGFuZXM8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVr
+ZXk+TnVtYmVyIG9mIExhbmVzPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5PkxhbmUgQ291
+bnQ8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+Um9hZHM8L3RoZW1la2V5Pg0KICAgICAg
+ICA8dGhlbWVrZXk+SGlnaHdheXM8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+Um9hZHdh
+eSBDaGFyYWN0ZXJpc3RpY3MgSW52ZW50b3J5PC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5
+PlJDSTwvdGhlbWVrZXk+DQogICAgICA8L3RoZW1lPg0KICAgICAgPHBsYWNlPg0KICAgICAgICA8
+cGxhY2VrZXk+RmxvcmlkYTwvcGxhY2VrZXk+DQogICAgICAgIDxwbGFjZWt0Pk5vbmU8L3BsYWNl
+a3Q+DQogICAgICA8L3BsYWNlPg0KICAgIDwva2V5d29yZHM+DQogICAgPGFjY2NvbnN0Pk5vbmU8
+L2FjY2NvbnN0Pg0KICAgIDx1c2Vjb25zdD5UaGlzIHByb2R1Y3QgaGFzIGJlZW4gY29tcGlsZWQg
+ZnJvbSB0aGUgbW9zdCBhY2N1cmF0ZSBzb3VyY2UgZGF0YSBmcm9tIHRoZSBGbG9yaWRhIERlcGFy
+dG1lbnQgb2YgVHJhbnNwb3J0YXRpb24ncyBUcmFuc3BvcnRhdGlvbiBTdGF0aXN0aWNzIE9mZmlj
+ZS4gSG93ZXZlciwgdGhpcyBwcm9kdWN0IGlzIGZvciByZWZlcmVuY2UgcHVycG9zZXMgb25seSBh
+bmQgaXMgbm90IHRvIGJlIGNvbnN0cnVlZCBhcyBhIGxlZ2FsIGRvY3VtZW50IG9yIHN1cnZleSBp
+bnN0cnVtZW50LiBBbnkgcmVsaWFuY2Ugb24gdGhlIGluZm9ybWF0aW9uIGNvbnRhaW5lZCBoZXJl
+aW4gaXMgYXQgdGhlIHVzZXIncyBvd24gcmlzay4gVGhlIEZsb3JpZGEgRGVwYXJ0bWVudCBvZiBU
+cmFuc3BvcnRhdGlvbiBhc3N1bWVzIG5vIHJlc3BvbnNpYmlsaXR5IGZvciBhbnkgdXNlIG9mIHRo
+ZSBpbmZvcm1hdGlvbiBjb250YWluZWQgaGVyZWluIG9yIGFueSBsb3NzIHJlc3VsdGluZyB0aGVy
+ZWZyb20uPC91c2Vjb25zdD4NCiAgICA8cHRjb250YWM+DQogICAgICA8Y250aW5mbz4NCiAgICAg
+ICAgPGNudHZvaWNlPig4NTApIDQxNC00ODQ4PC9jbnR2b2ljZT4NCiAgICAgICAgPGNudHRkZD5G
+bG9yaWRhIERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb246IFRERC9UVFk6IDg1MC00MTAtNTcw
+ODwvY250dGRkPg0KICAgICAgICA8Y250dGRkPkZsb3JpZGEgUmVsYXk6IDcxMTwvY250dGRkPg0K
+ICAgICAgICA8Y250dGRkPkZsb3JpZGEgUmVsYXk6IDEtODAwLTk1NS04NzcxIChUVFkpPC9jbnR0
+ZGQ+DQogICAgICAgIDxjbnR0ZGQ+RmxvcmlkYSBSZWxheTogMS04MDAtOTU1LTg3NzAgKFZvaWNl
+KTwvY250dGRkPg0KICAgICAgICA8Y250dGRkPkZsb3JpZGEgUmVsYXk6IDEtODAwLTk1NS0xMzM5
+IChBU0NJSSk8L2NudHRkZD4NCiAgICAgICAgPGNudHBlcnA+DQogICAgICAgICAgPGNudHBlcj5H
+SVMgU2VjdGlvbiBNYW5hZ2VyPC9jbnRwZXI+DQogICAgICAgICAgPGNudG9yZz5GRE9UIFRyYW5z
+cG9ydGF0aW9uIFN0YXRpc3RpY3MgT2ZmaWNlPC9jbnRvcmc+DQogICAgICAgIDwvY250cGVycD4N
+CiAgICAgICAgPGNudHBvcz5NYW5hZ2VyPC9jbnRwb3M+DQogICAgICAgIDxjbnRhZGRyPg0KICAg
+ICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbCBhZGRyZXNzPC9hZGRydHlwZT4N
+CiAgICAgICAgICA8YWRkcmVzcz5UcmFuc3BvcnRhdGlvbiBTdGF0aXN0aWNzIE9mZmljZSwgNjA1
+IFN1d2FubmVlIFN0cmVldCwgTVMgMjcgPC9hZGRyZXNzPg0KICAgICAgICAgIDxjaXR5PlRhbGxh
+aGFzc2VlPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5GbG9yaWRhPC9zdGF0ZT4NCiAgICAgICAg
+ICA8cG9zdGFsPjMyMzk5LTA0NTA8L3Bvc3RhbD4NCiAgICAgICAgICA8Y291bnRyeT5VU0E8L2Nv
+dW50cnk+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNudHZvaWNlPlRvbGwgRnJlZTog
+KDgwMCkgMzk5LTU1MDM8L2NudHZvaWNlPg0KICAgICAgICA8Y250dGRkPkZsb3JpZGEgUmVsYXk6
+IDEtODc3LTk1NS04NzczIChTcGFuaXNoKTwvY250dGRkPg0KICAgICAgICA8Y250ZW1haWw+Y28t
+dHJhbnN0YXRnaXNAZG90LnN0YXRlLmZsLnVzPC9jbnRlbWFpbD4NCiAgICAgIDwvY250aW5mbz4N
+CiAgICA8L3B0Y29udGFjPg0KICA8L2lkaW5mbz4NCiAgPG1ldGFpbmZvPg0KICAgIDxtZXRjPg0K
+ICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAgIDxhZGRydHlwZT5t
+YWlsaW5nIGFuZCBwaHlzaWNhbCBhZGRyZXNzPC9hZGRydHlwZT4NCiAgICAgICAgICA8Y2l0eT5U
+YWxsYWhhc3NlZTwvY2l0eT4NCiAgICAgICAgICA8c3RhdGU+RmxvcmlkYTwvc3RhdGU+DQogICAg
+ICAgICAgPHBvc3RhbD4zMjM5OS0wNDUwPC9wb3N0YWw+DQogICAgICAgICAgPGFkZHJlc3M+VHJh
+bnNwb3J0YXRpb24gU3RhdGlzdGljcyBPZmZpY2UsIDYwNSBTdXdhbm5lZSBTdHJlZXQsIE1TIDI3
+PC9hZGRyZXNzPg0KICAgICAgICAgIDxjb3VudHJ5PlVTQTwvY291bnRyeT4NCiAgICAgICAgPC9j
+bnRhZGRyPg0KICAgICAgICA8Y250dm9pY2U+KDg1MCkgNDE0LTQ4NDgvVG9sbCBGcmVlOiAoODAw
+KSAzOTktNTUwMzwvY250dm9pY2U+DQogICAgICAgIDxjbnRwb3M+R0lTIFNlY3Rpb24gTWFuYWdl
+cjwvY250cG9zPg0KICAgICAgICA8Y250b3JncD4NCiAgICAgICAgICA8Y250b3JnPkZET1QgVHJh
+bnNwb3J0YXRpb24gU3RhdGlzdGljcyBPZmZpY2U8L2NudG9yZz4NCiAgICAgICAgICA8Y250cGVy
+PkdJUyBTZWN0aW9uIE1hbmFnZXI8L2NudHBlcj4NCiAgICAgICAgPC9jbnRvcmdwPg0KICAgICAg
+ICA8Y250ZW1haWw+Y28tdHJhbnN0YXRnaXNAZG90LnN0YXRlLmZsLnVzIDwvY250ZW1haWw+DQog
+ICAgICAgIDxjbnR0ZGQ+RmxvcmlkYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uOiBUREQv
+VFRZOiA4NTAtNDEwLTU3MDg8L2NudHRkZD4NCiAgICAgICAgPGNudHRkZD5GbG9yaWRhIFJlbGF5
+OiA3MTE8L2NudHRkZD4NCiAgICAgICAgPGNudHRkZD5GbG9yaWRhIFJlbGF5OiAxLTgwMC05NTUt
+ODc3MSAoVFRZKTwvY250dGRkPg0KICAgICAgICA8Y250dGRkPkZsb3JpZGEgUmVsYXk6IDEtODAw
+LTk1NS04NzcwIChWb2ljZSk8L2NudHRkZD4NCiAgICAgICAgPGNudHRkZD5GbG9yaWRhIFJlbGF5
+OiAxLTgwMC05NTUtMTMzOSAoQVNDSUkpPC9jbnR0ZGQ+DQogICAgICAgIDxjbnR0ZGQ+Rmxvcmlk
+YSBSZWxheTogMS04NzctOTU1LTg3NzMgKFNwYW5pc2gpPC9jbnR0ZGQ+DQogICAgICA8L2NudGlu
+Zm8+DQogICAgPC9tZXRjPg0KICA8L21ldGFpbmZvPg0KICA8ZGlzdGluZm8+DQogICAgPHN0ZG9y
+ZGVyPg0KICAgICAgPGRpZ2Zvcm0+DQogICAgICAgIDxkaWd0aW5mbz4NCiAgICAgICAgICA8Zm9y
+bW5hbWU+U2hhcGVmaWxlPC9mb3JtbmFtZT4NCiAgICAgICAgICA8Zm9ybXZlcm4+Ti9BPC9mb3Jt
+dmVybj4NCiAgICAgICAgICA8Zm9ybXNwZWM+c2hhcGVmaWxlPC9mb3Jtc3BlYz4NCiAgICAgICAg
+ICA8ZmlsZWRlYz56aXAgY29tcHJlc3Npb248L2ZpbGVkZWM+DQogICAgICAgIDwvZGlndGluZm8+
+DQogICAgICAgIDxkaWd0b3B0Pg0KICAgICAgICAgIDxvbmxpbm9wdD4NCiAgICAgICAgICAgIDxj
+b21wdXRlcj4NCiAgICAgICAgICAgICAgPG5ldHdvcmthPg0KICAgICAgICAgICAgICAgIDxuZXR3
+b3Jrcj5odHRwczovL2Z0cC5mZG90Lmdvdi9maWxlL2QvRlRQL0ZET1QvY28vcGxhbm5pbmcvdHJh
+bnN0YXQvZ2lzL3NoYXBlZmlsZXMvbnVtYmVyX29mX2xhbmVzLnppcDwvbmV0d29ya3I+DQogICAg
+ICAgICAgICAgIDwvbmV0d29ya2E+DQogICAgICAgICAgICA8L2NvbXB1dGVyPg0KICAgICAgICAg
+IDwvb25saW5vcHQ+DQogICAgICAgICAgPG9mZm9wdG4+DQogICAgICAgICAgICA8b2ZmbWVkaWE+
+Q0QtUk9NPC9vZmZtZWRpYT4NCiAgICAgICAgICAgIDxyZWNmbXQ+emlwPC9yZWNmbXQ+DQogICAg
+ICAgICAgPC9vZmZvcHRuPg0KICAgICAgICA8L2RpZ3RvcHQ+DQogICAgICA8L2RpZ2Zvcm0+DQog
+ICAgICA8ZmVlcz5Ob25lPC9mZWVzPg0KICAgIDwvc3Rkb3JkZXI+DQogICAgPGRpc3RyaWI+DQog
+ICAgICA8Y250aW5mbz4NCiAgICAgICAgPGNudHBlcnA+DQogICAgICAgICAgPGNudHBlcj5HSVMg
+U2VjdGlvbiBNYW5hZ2VyPC9jbnRwZXI+DQogICAgICAgICAgPGNudG9yZz5GRE9UIFRyYW5zcG9y
+dGF0aW9uIFN0YXRpc3RpY3MgT2ZmaWNlPC9jbnRvcmc+DQogICAgICAgIDwvY250cGVycD4NCiAg
+ICAgICAgPGNudHBvcz5HSVMgU2VjdGlvbiBNYW5hZ2VyPC9jbnRwb3M+DQogICAgICAgIDxjbnRh
+ZGRyPg0KICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbCBhZGRyZXNzPC9h
+ZGRydHlwZT4NCiAgICAgICAgICA8YWRkcmVzcz5UcmFuc3BvcnRhdGlvbiBTdGF0aXN0aWNzIE9m
+ZmljZSwgNjA1IFN1d2FubmVlIFN0cmVldCwgTVMtMjcgPC9hZGRyZXNzPg0KICAgICAgICAgIDxj
+aXR5PlRhbGxhaGFzc2VlPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5GbG9yaWRhPC9zdGF0ZT4N
+CiAgICAgICAgICA8cG9zdGFsPjMyMzk5LTA0NTA8L3Bvc3RhbD4NCiAgICAgICAgICA8Y291bnRy
+eT5VU0E8L2NvdW50cnk+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNudHZvaWNlPig4
+NTApIDQxNC00ODQ4L1RvbGwgRnJlZTogKDgwMCkgMzk5LTU1MDMgPC9jbnR2b2ljZT4NCiAgICAg
+ICAgPGNudGVtYWlsPmNvLXRyYW5zdGF0Z2lzQGRvdC5zdGF0ZS5mbC51czwvY250ZW1haWw+DQog
+ICAgICAgIDxjbnR0ZGQ+RmxvcmlkYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uOiBUREQv
+VFRZOiA4NTAtNDEwLTU3MDg8L2NudHRkZD4NCiAgICAgICAgPGNudHRkZD5GbG9yaWRhIFJlbGF5
+OiA3MTE8L2NudHRkZD4NCiAgICAgICAgPGNudHRkZD5GbG9yaWRhIFJlbGF5OiAxLTgwMC05NTUt
+ODc3MSAoVFRZKTwvY250dGRkPg0KICAgICAgICA8Y250dGRkPkZsb3JpZGEgUmVsYXk6IDEtODAw
+LTk1NS04NzcwIChWb2ljZSk8L2NudHRkZD4NCiAgICAgICAgPGNudHRkZD5GbG9yaWRhIFJlbGF5
+OiAxLTgwMC05NTUtMTMzOSAoQVNDSUkpPC9jbnR0ZGQ+DQogICAgICAgIDxjbnR0ZGQ+Rmxvcmlk
+YSBSZWxheTogMS04NzctOTU1LTg3NzMgKFNwYW5pc2gpPC9jbnR0ZGQ+DQogICAgICA8L2NudGlu
+Zm8+DQogICAgPC9kaXN0cmliPg0KICAgIDxkaXN0bGlhYj5UaGlzIHByb2R1Y3QgaGFzIGJlZW4g
+Y29tcGlsZWQgZnJvbSB0aGUgbW9zdCBhY2N1cmF0ZSBzb3VyY2UgZGF0YSBmcm9tIHRoZSBGbG9y
+aWRhIERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb24ncyBUcmFuc3BvcnRhdGlvbiBTdGF0aXN0
+aWNzIE9mZmljZS4gSG93ZXZlciwgdGhpcyBwcm9kdWN0IGlzIGZvciByZWZlcmVuY2UgcHVycG9z
+ZXMgb25seSBhbmQgaXMgbm90IHRvIGJlIGNvbnN0cnVlZCBhcyBhIGxlZ2FsIGRvY3VtZW50IG9y
+IHN1cnZleSBpbnN0cnVtZW50LiBBbnkgcmVsaWFuY2Ugb24gdGhlIGluZm9ybWF0aW9uIGNvbnRh
+aW5lZCBoZXJlaW4gaXMgYXQgdGhlIHVzZXIncyBvd24gcmlzay4gVGhlIEZsb3JpZGEgRGVwYXJ0
+bWVudCBvZiBUcmFuc3BvcnRhdGlvbiBhc3N1bWVzIG5vIHJlc3BvbnNpYmlsaXR5IGZvciBhbnkg
+dXNlIG9mIHRoZSBpbmZvcm1hdGlvbiBjb250YWluZWQgaGVyZWluIG9yIGFueSBsb3NzIHJlc3Vs
+dGluZyB0aGVyZWZyb20uPC9kaXN0bGlhYj4NCiAgPC9kaXN0aW5mbz4NCiAgPHNwcmVmPg0KICAg
+IDxob3JpenN5cz4NCiAgICAgIDxwbGFuYXI+DQogICAgICAgIDxwbGFuY2k+DQogICAgICAgICAg
+PGNvb3JkcmVwPg0KICAgICAgICAgICAgPGFic3Jlcz4wLjAwMTAyNDwvYWJzcmVzPg0KICAgICAg
+ICAgICAgPG9yZHJlcz4wLjAwMTAyNDwvb3JkcmVzPg0KICAgICAgICAgIDwvY29vcmRyZXA+DQog
+ICAgICAgIDwvcGxhbmNpPg0KICAgICAgPC9wbGFuYXI+DQogICAgPC9ob3JpenN5cz4NCiAgPC9z
+cHJlZj4NCiAgPGVhaW5mbz4NCiAgICA8ZGV0YWlsZWQgTmFtZT0ibnVtYmVyX29mX2xhbmVzIj4N
+CiAgICAgIDxlbnR0eXA+DQogICAgICAgIDxlbnR0eXBsIFN5bmM9IlRSVUUiPm51bWJlcl9vZl9s
+YW5lczwvZW50dHlwbD4NCiAgICAgICAgPGVudHR5cHQgU3luYz0iVFJVRSI+RmVhdHVyZSBDbGFz
+czwvZW50dHlwdD4NCiAgICAgICAgPGVudHR5cGMgU3luYz0iVFJVRSI+NjcwODY8L2VudHR5cGM+
+DQogICAgICAgIDxlbnR0eXBkPk51bWJlciBvZiB0aHJvdWdoIHJvYWR3YXkgbGFuZXMuICBSQ0kg
+ZGVzaWduYXRpb24gLSBOT0xBTkVTLjwvZW50dHlwZD4NCiAgICAgICAgPGVudHR5cGRzPkZsb3Jp
+ZGEgRGVwYXJ0bWVudCBvZiBUcmFuc3BvcnRhdGlvbiwgVHJhbnNwb3J0YXRpb24gU3RhdGlzdGlj
+cyBPZmZpY2U8L2VudHR5cGRzPg0KICAgICAgPC9lbnR0eXA+DQogICAgICA8YXR0cj4NCiAgICAg
+ICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPkZJRDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlh
+cyBTeW5jPSJUUlVFIj5GSUQ8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJV
+RSI+T0lEPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjQ8L2F0dHdp
+ZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQogICAgICAg
+IDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgICAgPGF0dHJkZWYgU3lu
+Yz0iVFJVRSI+SW50ZXJuYWwgZmVhdHVyZSBudW1iZXIuPC9hdHRyZGVmPg0KICAgICAgICA8YXR0
+cmRlZnMgU3luYz0iVFJVRSI+RVNSSTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAg
+ICAgICAgICA8dWRvbSBTeW5jPSJUUlVFIj5TZXF1ZW50aWFsIHVuaXF1ZSB3aG9sZSBudW1iZXJz
+IHRoYXQgYXJlIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkLjwvdWRvbT4NCiAgICAgICAgPC9hdHRy
+ZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3lu
+Yz0iVFJVRSI+U2hhcGU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+
+U2hhcGU8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+R2VvbWV0cnk8
+L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+MDwvYXR0d2lkdGg+DQog
+ICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNj
+YWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgICA8YXR0cmRlZiBTeW5jPSJUUlVF
+Ij5GZWF0dXJlIGdlb21ldHJ5LjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzIFN5bmM9IlRS
+VUUiPkVTUkk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20g
+U3luYz0iVFJVRSI+Q29vcmRpbmF0ZXMgZGVmaW5pbmcgdGhlIGZlYXR1cmVzLjwvdWRvbT4NCiAg
+ICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8
+YXR0cmxhYmwgU3luYz0iVFJVRSI+Uk9BRFdBWTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlh
+cyBTeW5jPSJUUlVFIj5ST0FEV0FZPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9
+IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj44
+PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0dHJkZWY+Um9hZHdheSBJRCAtIEEgdW5pcXVlIDgtY2hh
+cmFjdGVyIGlkZW50aWZpY2F0aW9uIG51bWJlciBhc3NpZ25lZCB0byBhIHJvYWR3YXkgb3Igc2Vj
+dGlvbiBvZiBhIHJvYWR3YXkgZWl0aGVyIE9uIG9yIE9mZiB0aGUgU3RhdGUgSGlnaHdheSBTeXN0
+ZW0gZm9yIHdoaWNoIGluZm9ybWF0aW9uIGlzIG1haW50YWluZWQgaW4gdGhlIERlcGFydG1lbnQn
+cyBSb2Fkd2F5IENoYXJhY3RlcmlzdGljcyBJbnZlbnRvcnkgKFJDSSkuPC9hdHRyZGVmPg0KICAg
+ICAgICA8YXR0cmRlZnM+RmxvcmlkYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uLCBUcmFu
+c3BvcnRhdGlvbiBTdGF0aXN0aWNzIE9mZmljZTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9t
+dj4NCiAgICAgICAgICA8dWRvbT44LWNoYXJhY3RlciBJRCwgdGhlIGZpcnN0IHR3byBjaGFyYWN0
+ZXJzIGFyZSB0aGUgY291bnR5IGNvZGUsIHRoZSBuZXh0ICAzIGFyZSB0aGUgc2VjdGlvbiBjb2Rl
+LCBhbmQgZmluYWwgMyBjaGFyYWN0ZXJzIGFyZSB0aGUgc3Vic2VjdGlvbiBjb2RlLjwvdWRvbT4N
+CiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0
+cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAg
+ICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPlJP
+QURfU0lERTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5ST0FEX1NJ
+REU8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRy
+dHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjE8L2F0dHdpZHRoPg0KICAgICAg
+ICA8YXR0cmRlZj5Sb2FkIHNpZGUgdHlwZTwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkZs
+b3JpZGEgRGVwYXJ0bWVudCBvZiBUcmFuc3BvcnRhdGlvbiwgVHJhbnNwb3J0YXRpb24gU3RhdGlz
+dGljcyBPZmZpY2U8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPGVk
+b20+DQogICAgICAgICAgICA8ZWRvbXY+UjwvZWRvbXY+DQogICAgICAgICAgICA8ZWRvbXZkPlJp
+Z2h0IHNpZGUgb2YgdGhlIHJvYWQuPC9lZG9tdmQ+DQogICAgICAgICAgICA8ZWRvbXZkcz5GbG9y
+aWRhIERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb24sIFRyYW5zcG9ydGF0aW9uIFN0YXRpc3Rp
+Y3MgT2ZmaWNlPC9lZG9tdmRzPg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAgICA8ZWRvbT4N
+CiAgICAgICAgICAgIDxlZG9tdj5MPC9lZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+TGVmdCBz
+aWRlIG9mIHRoZSByb2FkLjwvZWRvbXZkPg0KICAgICAgICAgICAgPGVkb212ZHM+RmxvcmlkYSBE
+ZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uLCBUcmFuc3BvcnRhdGlvbiBTdGF0aXN0aWNzIE9m
+ZmljZTwvZWRvbXZkcz4NCiAgICAgICAgICA8L2Vkb20+DQogICAgICAgICAgPGVkb20+DQogICAg
+ICAgICAgICA8ZWRvbXY+QzwvZWRvbXY+DQogICAgICAgICAgICA8ZWRvbXZkPkNvbXBvc2l0ZSBz
+aWRlIG9mIHRoZSByb2FkIHdoaWNoIGlzIG5vbi1kaXZpZGVkLjwvZWRvbXZkPg0KICAgICAgICAg
+ICAgPGVkb212ZHM+RmxvcmlkYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uLCBUcmFuc3Bv
+cnRhdGlvbiBTdGF0aXN0aWNzIE9mZmljZTwvZWRvbXZkcz4NCiAgICAgICAgICA8L2Vkb20+DQog
+ICAgICAgIDwvYXR0cmRvbXY+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHBy
+ZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAg
+PC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5CRUdJ
+Tl9QT1NUPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPkJFR0lOX1BP
+U1Q8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+RG91YmxlPC9hdHRy
+dHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjE5PC9hdHR3aWR0aD4NCiAgICAg
+ICAgPGF0dHJkZWYgU3luYz0iVFJVRSI+QmVnaW4gbWlsZSBwb2ludDwvYXR0cmRlZj4NCiAgICAg
+ICAgPGF0dHJkZWZzPkZsb3JpZGEgRGVwYXJ0bWVudCBvZiBUcmFuc3BvcnRhdGlvbiwgVHJhbnNw
+b3J0YXRpb24gU3RhdGlzdGljcyBPZmZpY2U8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+
+DQogICAgICAgICAgPHVkb20+TG93ZXN0IG1pbGVwb2ludCBmb3IgdGhlIHJlY29yZDwvdWRvbT4N
+CiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjE4PC9h
+dHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjQ8L2F0dHNjYWxlPg0KICAg
+ICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5F
+TkRfUE9TVDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5FTkRfUE9T
+VDwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0dHJ0
+eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+MTk8L2F0dHdpZHRoPg0KICAgICAg
+ICA8YXR0cmRlZiBTeW5jPSJUUlVFIj5FbmQgbWlsZSBwb2ludDwvYXR0cmRlZj4NCiAgICAgICAg
+PGF0dHJkZWZzPkZsb3JpZGEgRGVwYXJ0bWVudCBvZiBUcmFuc3BvcnRhdGlvbiwgVHJhbnNwb3J0
+YXRpb24gU3RhdGlzdGljcyBPZmZpY2U8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQog
+ICAgICAgICAgPHVkb20+SGlnaGVzdCBtaWxlcG9pbnQgZm9yIHRoZSByZWNvcmQ8L3Vkb20+DQog
+ICAgICAgIDwvYXR0cmRvbXY+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4xODwvYXRw
+cmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj40PC9hdHRzY2FsZT4NCiAgICAg
+IDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+TEFO
+RV9DTlQ8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+TEFORV9DTlQ8
+L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+RG91YmxlPC9hdHRydHlw
+ZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjE5PC9hdHR3aWR0aD4NCiAgICAgICAg
+PGF0dHJkZWY+TnVtYmVyIG9mIGxhbmVzPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+Rmxv
+cmlkYSBEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uLCBUcmFuc3BvcnRhdGlvbiBTdGF0aXN0
+aWNzIE9mZmljZTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRv
+bT5OdW1iZXIgb2YgbGFuZXM8L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICAgIDxh
+dHByZWNpcyBTeW5jPSJUUlVFIj4xODwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5j
+PSJUUlVFIj40PC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAg
+ICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+U2hhcGVfTGVuZzwvYXR0cmxhYmw+DQogICAgICAgIDxh
+dHRhbGlhcyBTeW5jPSJUUlVFIj5TaGFwZV9MZW5nPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0
+eXBlIFN5bmM9IlRSVUUiPkRvdWJsZTwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5j
+PSJUUlVFIj4xOTwvYXR0d2lkdGg+DQogICAgICAgIDxhdHRyZGVmIFN5bmM9IlRSVUUiPiBMZW5n
+dGggaW4gbWV0ZXJzIG9mIHRoZSByb2Fkd2F5IHNoYXBlPC9hdHRyZGVmPg0KICAgICAgICA8YXR0
+cmRlZnM+RVNSSSAtIEludGVybmFsbHkgZ2VuZXJhdGVkPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0
+dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPlNoYXBlIGxlbmd0aCBpbiBtZXRlcnM8L3Vkb20+DQog
+ICAgICAgIDwvYXR0cmRvbXY+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4xODwvYXRw
+cmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj40PC9hdHRzY2FsZT4NCiAgICAg
+IDwvYXR0cj4NCiAgICA8L2RldGFpbGVkPg0KICA8L2VhaW5mbz4NCiAgPGRhdGFxdWFsPg0KICAg
+IDxsb2dpYz5BbGwgZGF0YSBmb3IgdGhpcyBkYXRhc2V0IGFyZSBsb2dpY2FsbHkgY29uc2lzdGVu
+dC48L2xvZ2ljPg0KICAgIDxjb21wbGV0ZT5UaGlzIGRhdGFzZXQgaXMgY29tcGxldGUgYXMgb2Yg
+ZGF0ZSBvZiBwcm9kdWN0aW9uLjwvY29tcGxldGU+DQogICAgPGxpbmVhZ2U+DQogICAgICA8cHJv
+Y3N0ZXA+DQogICAgICAgIDxwcm9jZGVzYz5UaGlzIGRhdGFzZXQgd2FzIGNyZWF0ZWQgdXNpbmcg
+RVNSSSBldmVudCBtYXBwaW5nLiAgVGhlIHJvdXRlIHN5c3RlbSBpcyB0aGUgVHJhbnNwb3J0YXRp
+b24gU3RhdGlzdGljcycgYmFzZW1hcCByb3V0ZXMuICBUaGUgZXZlbnQgc291cmNlIGRhdGEgYXJl
+IGZyb20gdGhlIG5vbGFuZXMgdGFibGUgc3RvcmVkIGluIE9yYWNsZS4gIFRoZSBxdWVyeSB1c2Vk
+IHRvIGdlbmVyYXRlIHRoZSBldmVudCB0YWJsZSBpczoNCnNlbGVjdCAqIGZyb20gbm9sYW5lczs8
+L3Byb2NkZXNjPg0KICAgICAgICA8cHJvY3N2PkVTUkkgQXJjT2JqZWN0czwvcHJvY3N2Pg0KICAg
+ICAgICA8cHJvY2RhdGU+MjAxNzAyMTg8L3Byb2NkYXRlPg0KICAgICAgPC9wcm9jc3RlcD4NCiAg
+ICA8L2xpbmVhZ2U+DQogIDwvZGF0YXF1YWw+DQo8L21ldGFkYXRhPg==</Data>
+		</Enclosure>
+		<Thumbnail><Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADIASwDAREA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD27Hua
+ADHvQAc+tAAOlAC0AFACHpQAtABQBzl/4zsNP1BrOSC4eRTgGMAg/rXNPExjLlaNY0m1cVvGWmpM
+sDpOkxwCjKAVPoeaf1mF7B7KW41/G2lRhC4uFVu+wcfXmk8VBbh7GRIPGWkl9oaZmzjAjz3x/On9
+Zpi9lIV/GWjISGmkDA4K+Uc59KHiaa6h7KQn/CaaIELG4cYJBHlnI/Cj6zT7h7KRP/wlGl7Awldg
+TjhD6ZqvbwF7ORoWl7BeqxgYsFxnII6jI61pGSlsS01uWaoQUAFABQAUAFABQAUAFAGTeMwlKnO2
+mgK1MAoAKACgAoAKACgAoAKACgAoA2vtUG0N50eCcA7hzxn+VSA9XVxlGDD1BzQAp6UALQAUAFAC
+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
+AoAKACgAoAKACgAoA0bCYFDGx6dM0mBPNcFJFjSMyORnGccVDdtBpHE63od1q3iuK4uMRWuBsWT+
+LbjI4rjqUnUqpvY3hNRhZG8BgYHSvQOcKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKA
+CgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAJ7eSNA6yAlWHakAsdzsm3sCwXIjGegqeV3ux30Kmo
+z/bitucBupwOinrmpnHm0HF21HKAqhR0AxWhItMAoAKACgAoA0IYUmsy2z58YBpdQOdksJJru4dn
+mUFxtCvgY2j+uaANKmAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAU
+ABIAyTgUANeWONdzuqr6k4pNpbjtchE0kw/cLhf+ejjA/Ad6nmb2Ha25LFEsQOMljyzHqTVJWE3c
+fTEFABQAUAFADo0MjhVFAGzCipEqr0qQMueKRriTZGqqD/E3X36U7gQUwCgAoAKACgAoAKACgAoA
+KACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAI5vN2Dydm7PJbsKl36DVupSa0S4Dfa3klJGCoYq
+o/Af1qHTUvi1K5rbE0cdvGBshBI4BPJ/M1ahFEttlpW3KCKoQtABQAUAFABQAUASQzNC+5fxFAGl
+BdpNx90jtU2AZLeokhUIH96dgMymAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAB
+QAUAFABQAhYL1NADNyDbx1GelAAHjx2oAUSpnA+lAD6ACgAoAKACgAoAKAFUlSCKAL8RgkTcxVT6
+UgM+mAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQA1kVjk9aAF2g9u2
+KAGiNB0FACiNBj5elADqACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAK
+ACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgD//Z</Data></Thumbnail></Binary>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode code="3087" Sync="TRUE" value="26917">
+				</identCode>
+				<idCodeSpace Sync="TRUE">EPSG</idCodeSpace>
+				<idVersion Sync="TRUE">6.12(9.2.0)</idVersion>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep><geometObjs Name="number_of_lanes_oct25"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo>
+	<mdDateSt Sync="TRUE">20251030</mdDateSt>
+	<spdoinfo><ptvctinf><esriterm Name="number_of_lanes_oct25"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="3" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo></metadata>
